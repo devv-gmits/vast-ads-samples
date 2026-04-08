@@ -1,0 +1,23 @@
+cat > vast-ads/linear1.xml << 'EOF'
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="1">
+    <InLine>
+      <AdSystem>Codex-Test</AdSystem>
+      <AdTitle>Linear Ad 1</AdTitle>
+      <Impression><![CDATA[https://example.com/impression]]></Impression>
+      <Error><![CDATA[https://example.com/error]]></Error>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4"><![CDATA[https://videos.pexels.com/video-files/36690434/15553027_2560_1440_60fps.mp4]]></MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
+EOF
