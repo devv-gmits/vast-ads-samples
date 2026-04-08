@@ -1,14 +1,13 @@
-cat > vast-ads/README.md << 'EOF'
 # VAST Ads Test Feeds (VAST 3.0)
 
 This folder contains sample VAST 3.0 XML files for OTT/CTV ad testing.
 
 ## Public XML URLs
 
-- https://devv-gmits.github.io/vast-ads-samples/vast-ads/linear1.xml
-- https://devv-gmits.github.io/vast-ads-samples/vast-ads/linear2.xml
-- https://devv-gmits.github.io/vast-ads-samples/vast-ads/overlay1.xml
-- https://devv-gmits.github.io/vast-ads-samples/vast-ads/overlay2.xml
+- https://devv-gmits.github.io/vast-ads-samples/linear1.xml
+- https://devv-gmits.github.io/vast-ads-samples/linear2.xml
+- https://devv-gmits.github.io/vast-ads-samples/overlay1.xml
+- https://devv-gmits.github.io/vast-ads-samples/overlay2.xml
 
 ## Usage in OTT / Flutter TV app
 
