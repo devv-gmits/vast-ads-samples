@@ -1,0 +1,22 @@
+cat > vast-ads/overlay1.xml << 'EOF'
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="overlay-1">
+    <InLine>
+      <AdSystem>Codex-Test</AdSystem>
+      <AdTitle>Overlay Ad 1</AdTitle>
+      <Creatives>
+        <Creative>
+          <NonLinearAds>
+            <NonLinear width="480" height="150" minSuggestedDuration="00:00:05">
+              <StaticResource creativeType="image/png"><![CDATA[https://images.pexels.com/photos/36936668/pexels-photo-36936668/free-photo-of-red-double-decker-tour-bus-in-istanbul-city.jpeg]]></StaticResource>
+              <NonLinearClickThrough><![CDATA[https://pexels.com]]></NonLinearClickThrough>
+              <NonLinearClickTracking><![CDATA[https://example.com/click]]></NonLinearClickTracking>
+            </NonLinear>
+          </NonLinearAds>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
+EOF
